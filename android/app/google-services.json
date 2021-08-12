@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85463695966",
+    "project_id": "talebnet-12c5a",
+    "storage_bucket": "talebnet-12c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85463695966:android:d339a467303cf7b25c6acf",
+        "android_client_info": {
+          "package_name": "com.amesso.talebnet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85463695966-k91f4298ighbskvbn2sg1lrtqg4rf2ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa45jugEyUu7ev5edMM8AIqhRH54B3PBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85463695966-k91f4298ighbskvbn2sg1lrtqg4rf2ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

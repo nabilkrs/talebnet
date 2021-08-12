@@ -21,7 +21,13 @@ class _HomeState extends State<Home> {
     super.dispose();
   }
 
-  List<Color> themeColors = [];
+  List<Color> themeColors = [
+        Color(0xFFDE741C),
+    Color(0xFFDE741E),
+
+
+
+  ];
   int _trigger = 0;
   Timer timer;
   @override
@@ -143,7 +149,7 @@ class _HomeState extends State<Home> {
                   MenuItem(
                     child: CircleAvatar(
                       backgroundImage: NetworkImage(
-                          'https://thumbs.dreamstime.com/b/colored-linkedin-logo-colored-linkedin-logo-vector-ai-file-easily-editable-have-white-background-high-resolution-155698459.jpg'),
+                          'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png'),
                     ),
                     title: "LinkedIn",
                     titleColor: Colors.white,
@@ -188,7 +194,7 @@ class _HomeState extends State<Home> {
                             child: Padding(
                               padding: const EdgeInsets.all(5),
                               child: Lottie.asset('assets/karrousa.json',
-                                  fit: BoxFit.fill),
+                                  ),
                             ),
                           ),
                         ),
@@ -210,11 +216,11 @@ class _HomeState extends State<Home> {
                     // MODEL 2
                     PageViewModel(
                       image: InkWell(
-                                                onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (_) =>
-                                  Website('https://www.youtube.com')));
-                        },
+                        //                         onTap: () {
+                        //   Navigator.of(context).push(MaterialPageRoute(
+                        //       builder: (_) =>
+                        //           Website('https://www.youtube.com')));
+                        // },
                                               child: Padding(
                           padding: const EdgeInsets.only(top: 20),
                           child: Container(
@@ -238,11 +244,11 @@ class _HomeState extends State<Home> {
                                 fontSize: 25,
                                 color: Colors.white)),
                       titleWidget: InkWell(
-                                                onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (_) =>
-                                  Website('https://khedma.saf9a.tn')));
-                        },
+                        //                         onTap: () {
+                        //   Navigator.of(context).push(MaterialPageRoute(
+                        //       builder: (_) =>
+                        //           Website('https://khedma.saf9a.tn')));
+                        // },
                                               child: Text("Khedma",
                             style: GoogleFonts.muli(
                                 fontWeight: FontWeight.bold,
@@ -253,11 +259,11 @@ class _HomeState extends State<Home> {
                     // MODEL 3
                     PageViewModel(
                       image: InkWell(
-                                                onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (_) =>
-                                  Website('https://khedma.saf9a.tn')));
-                        },
+                        //                         onTap: () {
+                        //   Navigator.of(context).push(MaterialPageRoute(
+                        //       builder: (_) =>
+                        //           Website('https://khedma.saf9a.tn')));
+                        // },
                                               child: Padding(
                           padding: const EdgeInsets.only(top: 20),
                           child: Container(
@@ -269,7 +275,7 @@ class _HomeState extends State<Home> {
                             child: Padding(
                               padding: const EdgeInsets.all(5),
                               child: Lottie.asset('assets/slm.json',
-                                  fit: BoxFit.fill),
+                                  ),
                             ),
                           ),
                         ),
@@ -280,11 +286,11 @@ class _HomeState extends State<Home> {
                                 fontSize: 25,
                                 color: Colors.white)),
                       titleWidget: InkWell(
-                                                onTap: () {
-                          Navigator.of(context).push(MaterialPageRoute(
-                              builder: (_) =>
-                                  Website('https://www.instagram.com')));
-                        },
+                        //                         onTap: () {
+                        //   Navigator.of(context).push(MaterialPageRoute(
+                        //       builder: (_) =>
+                        //           Website('https://www.instagram.com')));
+                        // },
                                               child: Text("Saf9a",
                             style: GoogleFonts.muli(
                                 fontWeight: FontWeight.bold,

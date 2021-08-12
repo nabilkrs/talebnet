@@ -1,4 +1,4 @@
-package com.example.talebnet
+package com.amesso.talebnet.app
 
 import io.flutter.embedding.android.FlutterActivity
 
